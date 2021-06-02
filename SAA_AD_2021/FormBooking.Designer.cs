@@ -50,13 +50,12 @@ namespace SAA_AD_2021
             this.btnsubmit = new System.Windows.Forms.Button();
             this.btnback = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tboxnumber
             // 
             this.tboxnumber.Location = new System.Drawing.Point(22, 116);
-            this.tboxnumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tboxnumber.Margin = new System.Windows.Forms.Padding(2);
             this.tboxnumber.Name = "tboxnumber";
             this.tboxnumber.Size = new System.Drawing.Size(146, 20);
             this.tboxnumber.TabIndex = 8;
@@ -64,7 +63,7 @@ namespace SAA_AD_2021
             // tboxfullname
             // 
             this.tboxfullname.Location = new System.Drawing.Point(22, 73);
-            this.tboxfullname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tboxfullname.Margin = new System.Windows.Forms.Padding(2);
             this.tboxfullname.Name = "tboxfullname";
             this.tboxfullname.Size = new System.Drawing.Size(146, 20);
             this.tboxfullname.TabIndex = 7;
@@ -112,7 +111,7 @@ namespace SAA_AD_2021
             // DTPstartdate
             // 
             this.DTPstartdate.Location = new System.Drawing.Point(22, 158);
-            this.DTPstartdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DTPstartdate.Margin = new System.Windows.Forms.Padding(2);
             this.DTPstartdate.Name = "DTPstartdate";
             this.DTPstartdate.Size = new System.Drawing.Size(146, 20);
             this.DTPstartdate.TabIndex = 13;
@@ -121,7 +120,7 @@ namespace SAA_AD_2021
             // 
             this.cboxcategory.FormattingEnabled = true;
             this.cboxcategory.Location = new System.Drawing.Point(22, 203);
-            this.cboxcategory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxcategory.Margin = new System.Windows.Forms.Padding(2);
             this.cboxcategory.Name = "cboxcategory";
             this.cboxcategory.Size = new System.Drawing.Size(146, 21);
             this.cboxcategory.TabIndex = 14;
@@ -139,7 +138,7 @@ namespace SAA_AD_2021
             // tboxtime
             // 
             this.tboxtime.Location = new System.Drawing.Point(22, 250);
-            this.tboxtime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tboxtime.Margin = new System.Windows.Forms.Padding(2);
             this.tboxtime.Name = "tboxtime";
             this.tboxtime.Size = new System.Drawing.Size(146, 20);
             this.tboxtime.TabIndex = 16;
@@ -178,7 +177,7 @@ namespace SAA_AD_2021
             // 
             this.cboxday.FormattingEnabled = true;
             this.cboxday.Location = new System.Drawing.Point(238, 250);
-            this.cboxday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxday.Margin = new System.Windows.Forms.Padding(2);
             this.cboxday.Name = "cboxday";
             this.cboxday.Size = new System.Drawing.Size(44, 21);
             this.cboxday.TabIndex = 20;
@@ -187,7 +186,7 @@ namespace SAA_AD_2021
             // 
             this.cboxmonth.FormattingEnabled = true;
             this.cboxmonth.Location = new System.Drawing.Point(307, 250);
-            this.cboxmonth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxmonth.Margin = new System.Windows.Forms.Padding(2);
             this.cboxmonth.Name = "cboxmonth";
             this.cboxmonth.Size = new System.Drawing.Size(109, 21);
             this.cboxmonth.TabIndex = 21;
@@ -196,7 +195,7 @@ namespace SAA_AD_2021
             // 
             this.cboxyear.FormattingEnabled = true;
             this.cboxyear.Location = new System.Drawing.Point(440, 250);
-            this.cboxyear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxyear.Margin = new System.Windows.Forms.Padding(2);
             this.cboxyear.Name = "cboxyear";
             this.cboxyear.Size = new System.Drawing.Size(71, 21);
             this.cboxyear.TabIndex = 22;
@@ -204,7 +203,7 @@ namespace SAA_AD_2021
             // tboxtotal
             // 
             this.tboxtotal.Location = new System.Drawing.Point(22, 293);
-            this.tboxtotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tboxtotal.Margin = new System.Windows.Forms.Padding(2);
             this.tboxtotal.Name = "tboxtotal";
             this.tboxtotal.Size = new System.Drawing.Size(146, 20);
             this.tboxtotal.TabIndex = 24;
@@ -222,7 +221,7 @@ namespace SAA_AD_2021
             // btnsubmit
             // 
             this.btnsubmit.Location = new System.Drawing.Point(22, 320);
-            this.btnsubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnsubmit.Margin = new System.Windows.Forms.Padding(2);
             this.btnsubmit.Name = "btnsubmit";
             this.btnsubmit.Size = new System.Drawing.Size(101, 28);
             this.btnsubmit.TabIndex = 25;
@@ -233,7 +232,7 @@ namespace SAA_AD_2021
             // btnback
             // 
             this.btnback.Location = new System.Drawing.Point(409, 320);
-            this.btnback.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnback.Margin = new System.Windows.Forms.Padding(2);
             this.btnback.Name = "btnback";
             this.btnback.Size = new System.Drawing.Size(101, 28);
             this.btnback.TabIndex = 26;
@@ -252,22 +251,11 @@ namespace SAA_AD_2021
             this.label9.TabIndex = 27;
             this.label9.Text = "Booking Now";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(264, 326);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 21);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FormBooking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(619, 377);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.btnsubmit);
@@ -289,7 +277,7 @@ namespace SAA_AD_2021
             this.Controls.Add(this.tboxfullname);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelEmail);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormBooking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormBooking";
@@ -321,6 +309,5 @@ namespace SAA_AD_2021
         private System.Windows.Forms.Button btnsubmit;
         private System.Windows.Forms.Button btnback;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
     }
 }
