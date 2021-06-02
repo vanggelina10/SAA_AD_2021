@@ -30,5 +30,10 @@ namespace SAA_AD_2021
             FormDashboard check = new FormDashboard();
             check.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
